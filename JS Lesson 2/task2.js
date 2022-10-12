@@ -86,7 +86,7 @@ function isDriver(item){
 var filtered = combined.filter(isPlanets);
 
 function isPlanets (item){
-  if (item==="Mercury" || "Venus" || "Earth" || "Mars" || "Jupiter" || "Saturn" || "Uranus" || "Neptune"){
+  if (item==="Mercury" ||item=== "Venus" ||item=== "Earth" ||item=== "Mars" ||item=== "Jupiter" ||item=== "Saturn" ||item=== "Uranus" ||item=== "Neptune"){
     return true;
   }
 }
